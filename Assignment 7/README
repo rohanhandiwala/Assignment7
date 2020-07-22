@@ -1,0 +1,10 @@
+Shape is an interface because all of the listed shapes that implement shape will inherit the area()
+and toString(). 
+
+Circle, triangle, & parallelogram inherit and define these methods 
+
+Rhombus, rectangle, and square extends Parallelogram because by definition they are parallelograms.
+Overrides toString() in order to edit the returned string
+
+Parallelogram, triangle, and circle inherit from the Shape interface
+Overrides area() and toString()
